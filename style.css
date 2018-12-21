@@ -7,8 +7,48 @@ body
 	background-size: cover;
 }
 
+.container 
+{
+	display:flex;
+	/*align-items: center;*/
+	justify-content: center;
+	width:100%;
+/*	height: 100vh;*/
+	margin-top:5%;
+}
 .container h1 
 {
-	font-size: 2em;
+	font-size: 2.5em;
 	color:white;
+    font-family: 'Nunito', sans-serif;
 }
+
+.btn-dark
+{
+    font-family: 'Nunito', sans-serif;
+	background-color: #3D94F6;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-weight: 10;
+	padding: 0.5em;
+	box-shadow: 1px 1px 20px 0px #000000;
+	-webkit-box-shadow: 1px 1px 20px 0px #000000;
+	-moz-box-shadow: 1px 1px 20px 0px #000000;
+	text-shadow: 1px 1px 20px #000000;
+	border: solid #337FED 1px;
+	text-decoration: none;
+	cursor: pointer;
+}
+ .btn-dark:hover
+ {
+	background: #1E62D0;
+	background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+	background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+	background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+	background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+	background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+	text-decoration: none;
+ }
