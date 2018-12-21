@@ -1,0 +1,14 @@
+body
+{
+	background-image: url("images/vincent-van-zalinge-38360-unsplash.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container h1 
+{
+	font-size: 2em;
+	color:white;
+}
