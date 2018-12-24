@@ -76,3 +76,52 @@ body
     width: 100%;
     overflow: hidden;
  }
+ .container2 
+ {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+ }
+
+ .footer a 
+ {
+	color:#fff;
+	text-align:center;
+	width: 100px;
+	display: block;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 30px;
+ }
+
+.footer .twitter:hover {	
+	background: #1da1f2; 
+}
+
+.footer .facebook:hover 
+{
+	background: #3b5998;
+}
+
+.footer .youtube:hover 
+{
+	background: #ff0000;
+}
+
+.footer .instagram:hover 
+{
+	background: #fcaf45;
+}
+
+.footer .github:hover
+{
+	background: #6cc644;
+}
+
+@media screen and (max-width: 500px) {
+	footer .container2 {
+		flex-wrap:wrap;
+		padding: 20px 0;
+	}
+}
