@@ -73,7 +73,7 @@ body
 	position: absolute;
     left: 0;
     bottom: 0;
-    height: 60px;
+    height: 100px;
     width: 100%;
     overflow: hidden;
  }
@@ -118,6 +118,21 @@ body
 .footer .github:hover
 {
 	background: #6cc644;
+}
+.footer .designer
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	color:white;
+}
+.designer p
+{
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
 }
 
 @media screen and (max-width: 500px) {
